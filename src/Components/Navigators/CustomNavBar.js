@@ -7,7 +7,7 @@ import {MDBIcon} from 'mdbreact';
     return (
       <div>
         <Navbar collapseOnSelect expand="lg" className="color-nav" variant="light">
-    <Navbar.Brand href="/"><img src="./logo.png" alt="logo" width="70" height="70"/></Navbar.Brand>
+    <Navbar.Brand href="/"><img src="./logo1.png" alt="logo" width="70" height="70"/></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
