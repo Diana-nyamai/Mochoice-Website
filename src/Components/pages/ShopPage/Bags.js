@@ -1,22 +1,26 @@
 import React, { useState, useEffect } from 'react'; 
 import {Link} from 'react-router-dom';
 import axios from 'axios';
+import { useDispatch, useSelector } from 'react-redux';
+import { listProducts } from '../../../actions/productActions';
 
 
  function Bags(props) {
-      const [products, setProduct] = useState([]);
-      useEffect(() => {
-          const fetchData = async () =>{
-              const {data} = await axios.get("/api/products");
-              setProduct(data)
+      const productList = useSelector(state.productList);
+      const { products, loading, error} = productList;
+      const dispatch = useDispatch();
 
-          }
-          fetchData();
+      useEffect(() => {
+          dispatch(listProducts());
           return () => {
               //
-          }
+          };
       }, [])
+
+
         return (
+        loading? <div>loading...</div>:
+        error? <div>{error}</div>:
             <div className="content">
                 <ul className="products">
                     {
