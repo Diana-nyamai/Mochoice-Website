@@ -1,5 +1,5 @@
-import axios from 'axios'
-const { PRODUCT_LIST_REQUEST, PRODUCT_LIST_SUCCESS, PRODUCT_LIST_FAIL } = require("../constants/productConstants")
+import axios from 'axios';
+import { PRODUCT_LIST_REQUEST, PRODUCT_LIST_SUCCESS, PRODUCT_LIST_FAIL } from "../constants/productConstants"
 
 const listProducts = () => async (dispatch) => {
     try{
@@ -11,5 +11,5 @@ const listProducts = () => async (dispatch) => {
         dispatch({type:PRODUCT_LIST_FAIL, payload:error.message});
     }
     }
-
+ 
     export {listProducts}
