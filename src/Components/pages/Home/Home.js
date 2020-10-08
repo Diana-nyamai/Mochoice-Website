@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Shoes from '../ShopPage/Shoes';
 import Carouselimage from './Carouselimage';
 
 
@@ -8,6 +9,9 @@ export class Home extends Component {
         return (
             <div>
                <div> <Carouselimage/></div>
+               <div>
+                   <Shoes/>
+               </div>
             </div>
         )
     }

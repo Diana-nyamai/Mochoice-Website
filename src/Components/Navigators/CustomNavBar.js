@@ -12,8 +12,6 @@ import {MDBIcon} from 'mdbreact';
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="/"><b>Home</b> <MDBIcon icon="home"/></Nav.Link>
-      <Nav.Link href="/OurServices"><b>Services</b></Nav.Link>
-      <Nav.Link href="/About"><b>About</b> <MDBIcon icon="info-circle"/></Nav.Link>
       <NavDropdown title="Shop" >
         <NavDropdown.Item href="/Bags">Bags</NavDropdown.Item>
         <NavDropdown.Item href="/Shoes">Shoes</NavDropdown.Item>

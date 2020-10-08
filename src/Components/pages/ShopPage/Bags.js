@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { listProducts } from '../../../actions/productActions';
 
-function Bags() {
-      const productList = useSelector(state => state.productList);
+function Bags(props) {
+      const productList = useSelector((state) => state.productList);
       const { products, loading, error} = productList;
       const dispatch = useDispatch();
 

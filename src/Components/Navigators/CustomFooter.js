@@ -9,43 +9,49 @@ const CustomFooter = () => {
         <MDBRow className="text-center text-md-left mt-3 pb-3">
           <MDBCol md="3" lg="3" xl="3" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">
-              Company name
+              Mochoice
             </h6>
             <p>
-              Here you can use rows and columns here to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit.
+             This is best site where you can find affordable,trendy and quality fashion.
+             spoil yourself,your friend,your partner and we promise we wont disappoint.
+            Fast delivery only for you!
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="2" lg="2" xl="2" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
             <p>
-              <a href="#!">MDBootstrap</a>
+              <a href="/Bags">Bags</a>
             </p>
             <p>
-              <a href="#!">MDWordPress</a>
+              <a href="/Shoes">Shoes</a>
             </p>
             <p>
-              <a href="#!">BrandFlow</a>
+              <a href="Watches">Watches</a>
             </p>
             <p>
-              <a href="#!">Bootstrap Angular</a>
+              <a href="Dress">Dresses</a>
+            </p>
+            <p>
+              <a href="Skirt">Skirt</a>
+            </p>
+            <p>
+              <a href="Trouser">Trouser</a>
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="3" lg="2" xl="2" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">
-              Useful links
+              Quick links
             </h6>
             <p>
               <a href="#!">Your Account</a>
             </p>
             <p>
-              <a href="#!">Become an Affiliate</a>
+              <a href="/About">About us</a>
             </p>
-            <p>
-              <a href="#!">Shipping Rates</a>
+           <p>
+              <a href="/OurServices">our Services</a>
             </p>
             <p>
               <a href="#!">Help</a>
@@ -55,17 +61,15 @@ const CustomFooter = () => {
           <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
             <p>
-              <i className="fa fa-home mr-3" /> New York, NY 10012, US
+              <i className="fa fa-home mr-3" /> Nairobi,Kenya
             </p>
             <p>
-              <i className="fa fa-envelope mr-3" /> info@gmail.com
+              <i className="fa fa-envelope mr-3" /> mochoice@gmail.com
             </p>
             <p>
-              <i className="fa fa-phone mr-3" /> + 01 234 567 88
+              <i className="fa fa-phone mr-3" /> +254 798 777 814
             </p>
-            <p>
-              <i className="fa fa-print mr-3" /> + 01 234 567 89
-            </p>
+           
           </MDBCol>
         </MDBRow>
         <hr />
