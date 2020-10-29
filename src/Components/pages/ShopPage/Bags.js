@@ -13,11 +13,11 @@ function Bags(props) {
           return () => {
               //
           };
-      }, )
+      }, [])
 
 
 return (
-loading? <div>loading...</div>:
+loading? <div>please wait...</div>:
 error? <div>{error}</div>:
     <div className="content">
         <ul className="products">

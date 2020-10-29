@@ -125,7 +125,7 @@ export default  {
         _id:'12',
         name:'wedge',
         category:'bags',
-        images:'/images/shoes/shoe0.jpg',
+        images:'/images/shoes/shoe10.jpg',
         price:6000,
         brand:'LV',
         rating:4.5,
