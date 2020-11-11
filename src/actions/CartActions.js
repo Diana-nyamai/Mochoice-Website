@@ -1,4 +1,5 @@
-const { default: Axios } = require("axios")
+const { default: Axios } = require("axios");
+const { CART_ADD_ITEM } = require("../constants/CartConstants");
 
 const addToCart = (productId, qty) => async (dispatch) =>{
     try {
@@ -17,3 +18,5 @@ const addToCart = (productId, qty) => async (dispatch) =>{
         
     }
 }
+
+export {addToCart}
