@@ -16,6 +16,7 @@ import Dress from './Components/pages/Clothes/Dress';
 import Skirt from './Components/pages/Clothes/Skirt';
 import Trouser from './Components/pages/Clothes/Trouser';
 import ProductScreen from './Components/pages/ProductScreen/ProductScreen';
+import CartScreen from './Components/pages/ProductScreen/CartScreen';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <Route path="/Trouser" component={Trouser}/>
       {/*product screen */}
       <Route path="/Product/:id" component={ProductScreen}/>
+      <Route path="/cart/:id?" component={CartScreen}/>
       
     <CustomFooter/>
 </div>

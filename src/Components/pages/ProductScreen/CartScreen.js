@@ -1,6 +1,7 @@
 import React from 'react'
 
-function CartScreen() {
+function CartScreen(props) {
+    const productId = props.match.params.id;
     return <div>
             <h1>cart screen</h1>
         </div>
