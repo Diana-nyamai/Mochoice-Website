@@ -1,4 +1,4 @@
-import React,{ useEffect } from 'react'
+import React,{ useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
 import {MDBIcon} from 'mdbreact'
 import {useDispatch, useSelector} from 'react-redux';
@@ -6,6 +6,7 @@ import { detailsProduct } from '../../../actions/productActions';
 
 
 function ProductScreen(props) {
+   const [qty, setQty] = useState(1);
    const productDetails = useSelector(state => state.productDetails);
    const {product, loading, error} = productDetails
    const dispatch = useDispatch();
@@ -58,7 +59,7 @@ function ProductScreen(props) {
                        status: {product.status}
                    </li>
                    <li>
-                       Qty:<select>
+                       Qty:<select value={qty} onChange={(e) =>{setQty(e.target.value)}}>
                            <option>1</option>
                            <option>2</option>
                            <option>3</option>
