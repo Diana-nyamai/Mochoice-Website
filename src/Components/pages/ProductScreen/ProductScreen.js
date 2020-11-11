@@ -17,6 +17,10 @@ function ProductScreen(props) {
            //
        };
    }, [])
+
+   const handleAddToCart = () =>{
+       props.history.push("/cart/" + props.match.params.id + "?qty=" + qty)
+   }
        return(
        
        <div>
@@ -65,7 +69,7 @@ function ProductScreen(props) {
                        </select>
                    </li>
                    <li>
-                       <button className="button">Add to cart <MDBIcon icon="cart-plus"/></button>
+                       <button onClick={handleAddToCart} className="button">Add to cart <MDBIcon icon="cart-plus"/></button>
                    </li>
                </ul>
            </div>
