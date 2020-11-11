@@ -60,7 +60,7 @@ function ProductScreen(props) {
                        price: {product.price}
                    </li>
                    <li>
-                       status: {product.status}
+                       status: {product.countInStock > 0? "In stock":"out of stock"}
                    </li>
                    <li>
                        Qty:<select value={qty} onChange={(e) =>{setQty(e.target.value)}}>
@@ -69,8 +69,10 @@ function ProductScreen(props) {
                        </select>
                    </li>
                    <li>
-                       <button onClick={handleAddToCart} className="button">Add to cart <MDBIcon icon="cart-plus"/></button>
-                   </li>
+                    {product.countInStock > 0 &&  <button onClick={handleAddToCart} className="button">Add to cart <MDBIcon icon="cart-plus"/></button>
+                    
+                    
+                   } </li>
                </ul>
            </div>
            </div>
