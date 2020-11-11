@@ -60,11 +60,7 @@ function ProductScreen(props) {
                    </li>
                    <li>
                        Qty:<select value={qty} onChange={(e) =>{setQty(e.target.value)}}>
-                           <option>1</option>
-                           <option>2</option>
-                           <option>3</option>
-                           <option>4</option>
-                           <option>5</option>
+                           
                        </select>
                    </li>
                    <li>
