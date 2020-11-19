@@ -7,13 +7,11 @@ import {MDBIcon} from 'mdbreact';
     return (
       <div>
         <Navbar collapseOnSelect expand="lg" className="color-nav" variant="light">
-    <Navbar.Brand href="/"><img src="./logo.png" alt="logo" width="70" height="70"/></Navbar.Brand>
+    <Navbar.Brand href="/"><img src="./logo1.png" alt="logo" width="70" height="70"/></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="/"><b>Home</b> <MDBIcon icon="home"/></Nav.Link>
-      <Nav.Link href="/OurServices"><b>Services</b></Nav.Link>
-      <Nav.Link href="/About"><b>About</b> <MDBIcon icon="info-circle"/></Nav.Link>
       <NavDropdown title="Shop" >
         <NavDropdown.Item href="/Bags">Bags</NavDropdown.Item>
         <NavDropdown.Item href="/Shoes">Shoes</NavDropdown.Item>
