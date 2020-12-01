@@ -4,7 +4,7 @@ export class Watches extends Component {
     render() {
         return (
             <div>
-                <h1>watches page</h1>
+                <h1>watches Page</h1>
             </div>
         )
     }
