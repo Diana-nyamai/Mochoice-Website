@@ -4,7 +4,7 @@ export class Trouser extends Component {
     render() {
         return (
             <div>
-                <h1>Trouser page</h1>
+                <h1>Trouser Page</h1>
             </div>
         )
     }
