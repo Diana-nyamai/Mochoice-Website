@@ -8,7 +8,7 @@ export default  {
         price:6000,
         brand:'LV',
         rating:4.5,
-        numReviews:10
+        numReviews:13
         
     },
     {
