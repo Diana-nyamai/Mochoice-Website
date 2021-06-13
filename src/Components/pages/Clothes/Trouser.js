@@ -17,7 +17,7 @@ export class Trouser extends Component {
                         <div className="product-name"><Link to={'/Product/' + product._id}>{product.name}</Link></div>
                         <div className="product-brand">{product.brand}</div>
                         <div className="product-price">Ksh.{product.price}</div>
-                        <div className="product-rating">4.5 stars ({product.numReviews})</div>
+                        <div className="product-rating">3.5 stars ({product.numReviews})</div>
                         </div>
     
                 </li>    
