@@ -9,7 +9,7 @@ export class Trouser extends Component {
             <ul className="products">
                 {
                 TrouserData.products.map(product => 
-                <li key={product._id}>
+                <li key={product._id}>       
                     <div className="product">
                     <Link to={'/Product/' + product._id}>
                         <img className="product-image" src ={product.images} alt="bag"/>
